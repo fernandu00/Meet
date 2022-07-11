@@ -1,0 +1,582 @@
+body{
+    background-color: #013243;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+.master-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav{
+    padding: 1rem;
+    display: flex;
+
+
+}
+
+.container-img{
+    height: 11vh;
+}
+
+.dialog{
+    color:#32f5c8;
+    font-size: 2.9rem;
+    padding: 0 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+.about{
+    color: #a9bdc6;
+    font-size: 1.25rem;
+    font-family: 'Sen', sans-serif;
+    padding: 0 1rem;
+}
+
+.container-text{
+    padding-left: 1rem;
+}
+
+.container-banner{
+    padding: 0 2rem;
+    width: 70%;
+    height: 30vh;
+    margin-top: .5rem;
+}
+
+.banner{
+    background-color:#32f5c8;
+    color:rgba(0, 0, 0, 0.845);
+    font-size: 1.25rem;
+    font-family:'Sen', sans-serif ;
+    border-radius: .2rem;
+    padding: 1.25rem 1.25rem;
+    font-weight: bold;
+    
+    
+   
+}
+
+.img-1{
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    top: -.25rem;
+    left: 3.9rem;
+}
+
+.img-2{
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    left: 30%;
+    top: 2.25rem;
+    z-index: -1;
+}
+
+.img-3{
+    width: 9.5rem;
+    height: 9.5rem;
+    position: relative;
+    top: -1.75rem;
+    left: 69%;
+    z-index: -1;
+}
+
+.img-4{
+    display: none;
+
+}
+
+.img-5{
+    display: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    column-gap: 1rem;
+}
+
+footer a{
+    font-family:'Sen', sans-serif ;
+    font-size: 1.25rem;
+    color: #a9bdc6;
+    text-decoration: none;
+    
+
+}
+
+/* 2532x1170 pixels at 460ppi */
+/* Iphone 13 */
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+    
+    .master-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+
+    .img-1{
+        width: 6rem;
+        height: 6rem;
+        position: relative;
+        top: .5rem;
+        left: 3.9rem;
+    }
+
+
+    .img-4, .img-5, .img-6{
+        display: none;
+    }
+
+
+
+}
+/* Samsung S8+ */
+@media only screen 
+    and (max-width: 361px) 
+    and (max-height: 741px){
+
+    .master-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .dialog{
+        color:#32f5c8;
+        font-size: 2.75rem;
+        padding: 0 1rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: bolder;
+    }
+
+    .banner{
+        background-color:#32f5c8;
+        color:rgba(0, 0, 0, 0.845);
+        font-size: 1.2rem;
+        font-family:'Sen', sans-serif ;
+        border-radius: .2rem;
+        padding: 1.25rem 1.25rem;
+        font-weight: bold;
+    
+    }
+
+    .img-3{
+        width: 9.5rem;
+        height: 9.5rem;
+        position: relative;
+        top: -1.75rem;
+        left: 66%;
+        z-index: -1;
+    }
+    
+
+
+
+}
+/* Mobile S */
+@media only screen 
+    and (max-width: 350px) 
+    and (min-width: 300px)
+    
+    {
+
+
+    .master-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .dialog{
+        color:#32f5c8;
+        font-size: 2.5rem;
+        padding: 0 1rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: bolder;
+    }
+
+    .container-banner {
+        padding: 0 1rem;
+        max-width: 66%;
+        height: 31vh;
+        margin-top: .5rem;
+    }
+
+    .banner{
+        background-color:#32f5c8;
+        color:rgba(0, 0, 0, 0.845);
+        font-size: 1rem;
+        font-family:'Sen', sans-serif ;
+        border-radius: .2rem;
+        padding: 1.25rem 1.25rem;
+        font-weight: bold;
+    
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        column-gap: 1rem;
+    }
+    .img-1{
+        width: 6rem;
+        height: 6rem;
+        position: relative;
+        top: 1%;
+        left: 15%;
+    }
+
+    .img-2{
+        width: 7rem;
+        height: 7rem;
+        position: relative;
+        left: 29%;
+        top: 49%;
+        z-index: -1;
+    }
+    
+    .img-3{
+        width: 9.5rem;
+        height: 9.5rem;
+        position: relative;
+        top:-12%;
+        left: 65%;
+       
+        z-index: -1;
+    }
+
+
+    .img-4, .img-5, .img-6{
+        display: none;
+    }
+}
+
+/* Mobile L */
+@media only screen 
+    and (min-width: 424px) 
+    and (max-height: 898px)
+    {
+
+    .master-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .banner{
+        background-color:#32f5c8;
+        color:rgba(0, 0, 0, 0.845);
+        font-size: 1.5rem;
+        font-family:'Sen', sans-serif ;
+        border-radius: .2rem;
+        padding: 1.25rem 1.25rem;
+        font-weight: bold;
+    
+    }
+
+    .container-banner{
+        padding: 0 2rem;
+        width: 75%;
+        height: 30vh;
+        margin-top: .5rem;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        column-gap: 1rem;
+    }
+    .img-4, .img-5, .img-6{
+        display: none;
+    }
+
+}
+
+    
+
+
+/* Mobile M */
+@media only screen 
+    and (min-width: 375px) 
+    and (max-width: 375px) 
+    and (max-height: 898px){
+
+
+    .banner{
+        background-color:#32f5c8;
+        color:rgba(0, 0, 0, 0.845);
+        font-size: 1.25rem;
+        font-family:'Sen', sans-serif ;
+        border-radius: .2rem;
+        padding: 1.25rem 1.25rem;
+        font-weight: bold;
+    
+    }
+
+    .container-banner{
+        padding: 0 2rem;
+        width: 75%;
+        height: 30vh;
+        margin-top: .5rem;
+    }
+
+    .img-3{
+        width: 9.5rem;
+        height: 9.5rem;
+        position: relative;
+        top: -1.75rem;
+        left: 62%;
+        z-index: -1;
+    }
+
+    .img-4, .img-5, .img-6{
+        display: none;
+    }
+}
+/* laptop medium */
+@media screen and (min-width:1400px) {
+    .master-container{
+        padding-left: 5rem;
+    }
+
+
+    .nav{
+        padding: 2rem;
+        display: flex;
+
+    }
+
+    .container-img{
+        height: .1vh;
+        
+    }
+
+    .dialog{
+        color:#32f5c8;
+        font-size: 10.5rem;
+        padding: 0 1rem;
+        font-family: 'Sen', sans-serif;
+        font-weight: 550;
+        margin: 0 0;
+        line-height: 1;
+        
+       
+        
+    }
+
+    
+    .above{
+        color:#32f5c8;
+        font-size: 10.5rem;
+        font-family: 'Sen', sans-serif;
+        font-weight: 550;
+        margin: 0 0;
+        line-height: 1;
+        z-index: 10;
+        display: inline;
+        
+    }
+    
+
+    .container-text{
+        padding-left: 1rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .about{
+        color: #a9bdc6;
+        font-size: 1.5rem;
+        font-family: 'Inter', sans-serif;
+        padding: 0 1rem;
+        width: 39%;
+        cursor: pointer;
+    }
+    
+
+    .container-banner{
+        padding: 0 1.5rem;
+        width: 22%;
+        margin-top: .5rem;
+    }
+
+
+    footer{
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        column-gap: 1rem;
+    }
+
+    .img-1{
+        width: 6rem;
+        height: 6rem;
+        position: relative;
+        top: -2rem;
+        left: -2rem;
+        z-index: -1
+    }
+    
+    
+    .img-2 {
+        width: 7.5rem;
+        height: 7.5rem;
+        position: relative;
+        left: 62%;
+        top: -2rem;
+        z-index: -1;
+    }
+    
+    .img-3{
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        top: 40rem;
+        left: 70%;
+        z-index: -1;
+        display: inline-block;
+    }
+    
+    .img-4{
+        width: 6rem;
+        height: 6rem;
+        left: 42.5%;
+        top: -2.5rem;
+        position: relative;
+        display: inline-block;
+        
+    
+    }
+    
+    .img-5{
+        width: 6.5rem;
+        height: 6.5rem;
+        position: relative;
+        left: 27%;
+        top: 17.5rem;
+        z-index: -1;
+        display: inline;
+        border-radius: 50%;
+    }
+    
+
+    .img-6{
+        width: 5.75rem;
+        height: 5.75rem;
+        left: 53.5%;
+        top: 13.7rem;
+        position: relative;
+        display: inline-block;
+        z-index: -1;
+        
+    
+    }
+
+}
+
+
+/* tablet */
+@media screen and (width:768px){
+ 
+    
+    .dialog{
+        color:#32f5c8;
+        font-size: 6rem;
+        padding: 0 1rem;
+        font-family: 'Sen', sans-serif;
+        font-weight: 550;
+        margin: 0 0;
+        line-height: 1.2;
+        
+       
+        
+    }
+
+    
+    
+    
+
+    .container-text{
+        padding-left: 1rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .about{
+        color: #a9bdc6;
+        font-size: 1.5rem;
+        font-family: 'Inter', sans-serif;
+        padding: 0 1rem;
+        width: 75%;
+        cursor: pointer;
+    }
+    
+
+    .container-banner{
+        padding: 0 1.5rem;
+        width: 38.5%;
+        margin-top: .5rem;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 1rem;
+        column-gap: 1rem;
+    }
+
+    .img-1{
+        width: 6.5rem;
+        height: 6.5rem;
+        position: relative;
+        top: -.25rem;
+        left: 7.9rem;
+    }
+    
+    .img-2{
+        width: 9rem;
+        height: 9rem;
+        position: relative;
+        left: 47%;
+        top: 4.5rem;
+        z-index: -1;
+    }
+    
+    .img-3{
+        width: 9.5rem;
+        height: 9.5rem;
+        position: relative;
+        top: -1.75rem;
+        left: 69%;
+        z-index: -1;
+    }
+
+}

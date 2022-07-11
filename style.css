@@ -96,7 +96,13 @@ body{
 
 .img-5{
     display: none;
+
 }
+
+.img-6{
+    display: none;
+}
+
 
 footer{
     display: flex;
@@ -273,7 +279,7 @@ footer a{
 /* Mobile L */
 @media only screen 
     and (min-width: 424px) 
-    and (max-height: 898px)
+    
     {
 
     .master-container{
